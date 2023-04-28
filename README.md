@@ -47,7 +47,7 @@ The `sum_bad` method implements the sum function using a simple loop that iterat
 
 The `sum_good` method, on the other hand, implements the sum function using the arithmetic progression formula. This implementation has a time complexity of O(1) and is much more efficient than the sum_bad implementation for large values of n.
 
-The `complex_operation_1` and `complex_operation_2` methods use the sum_bad and sum_good methods, respectively, to perform some complex computation(computer the ratio between each consicutive sum). These methods use a loop that iterates over a large number of times (1000000) and performs some mathematical operations using the result of the sum function.
+The `complex_operation_1` and `complex_operation_2` methods use the sum_bad and sum_good methods, respectively, to perform some complex computation. These methods use a loop that iterates over a large number of times (1000000) and performs some mathematical operations using the result of the sum function.
 
 Inside the loop in complex_operations, the sum method is called with an increasing value of n + i, where i is the loop variable. The result of sum is then used in a mathematical operation to update the result variable. Specifically, if the loop index i is even, result is divided by the result of sum, otherwise, it is multiplied by the result of sum.
 
