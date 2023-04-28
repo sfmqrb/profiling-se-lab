@@ -29,9 +29,9 @@ public class A {
     }
 
     private void produceGarbage() {
-        List<String> list = new ArrayList<>();
+        List<String> garbageList = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            list.add(randomHash());
+            garbageList.add(randomHash());
         }
     }
 

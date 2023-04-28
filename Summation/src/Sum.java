@@ -2,7 +2,7 @@ public class Sum {
     public static void main(String[] args)
     {
         int n = 1000000;
-        complex_operation_1(n);
+        double result = complex_operation_1(n);
     }
 
     private static double complex_operation_2(int n) {
